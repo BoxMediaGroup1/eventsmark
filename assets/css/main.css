@@ -1013,4 +1013,69 @@ a.log-in-btn:hover:after {
 .aximo-project-info h3 {
   color: #f90000 !important;
 }
+.case-stats-clean {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px; /* spacing between stats */
+  margin: 1px auto;
+  padding-bottom: 80px; /* space above the image */
+  max-width: 1200px;
+}
+
+.case-stats-clean .stat {
+  flex: 1 1 160px;
+  text-align: center;
+  min-width: 140px;
+}
+
+.case-stats-clean .stat .number {
+  font-size: 36px;
+  font-weight: 900;
+  font-family: 'Syne', sans-serif;
+}
+
+.case-stats-clean .stat .label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .case-stats-clean {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 20px;
+  }
+
+  .case-stats-clean .stat .number {
+    font-size: 28px;
+  }
+
+  .case-stats-clean .stat .label {
+    font-size: 16px;
+  }
+}
+.platforms-used {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.platform {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.platform img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
 

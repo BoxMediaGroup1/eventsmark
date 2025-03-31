@@ -1,0 +1,36 @@
+.paid-social-section {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .paid-social-section h2 {
+    font-size: 32px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    color: #000;
+  }
+  
+  .paid-social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  .paid-social-list li {
+    margin-bottom: 15px;
+  }
+  
+  .paid-social-list a {
+    color: #1a4cff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .paid-social-list a:hover {
+    color: #000;
+  }
+  

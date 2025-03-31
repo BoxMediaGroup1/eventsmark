@@ -7462,10 +7462,6 @@ img.aximo-video-circle {
   .aximo-project-info h3 {
     font-size: 20px;
   }
-  .aximo-project-info h3 {
-    color: #f90000; /* change to whatever you want */
-  }
-  
 }
 @media (max-width: 991px) {
   .aximo-project-info {
@@ -10166,6 +10162,10 @@ button#aximo-notified-btn {
   position: absolute;
   top: 5px;
   right: 5px;
+}
+
+.aximo-project-info h3 {
+  color: #f90000 !important;
 }
 
 /*1.4 themes css*/

@@ -1061,21 +1061,89 @@ a.log-in-btn:hover:after {
 .platforms-used {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 40px;
+  align-items: center;
+  justify-content: flex-start;
   margin-top: 20px;
 }
 
-.platform {
+.platform-item {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-weight: 600;
-  font-size: 16px;
+  gap: 15px;
+  min-width: 180px;
 }
 
-.platform img {
-  width: 28px;
-  height: 28px;
+.platform-item img {
+  width: 40px;
+  height: 40px;
   object-fit: contain;
+}
+
+.platform-item span {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .platforms-used {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+/* === General/Desktop Styling === */
+.aximo-project-single-thumb {
+  margin-bottom: 100px; /* More space under top image */
+}
+
+.aximo-project-single-wrap {
+  padding-top: 80px; /* More space above "The Brief" section */
+}
+
+.aximo-default-content h2 {
+  margin-bottom: 40px;
+}
+
+.aximo-default-content {
+  padding-bottom: 80px;
+}
+
+/* === Mobile Styling === */
+@media (max-width: 991px) {
+  .aximo-project-single-thumb {
+    margin-bottom: 80px;
+    text-align: center;
+  }
+
+  .aximo-project-single-thumb img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .aximo-project-single-wrap {
+    padding-top: 70px;
+  }
+
+  .aximo-default-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+  }
+
+  .aximo-default-content h2 {
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .aximo-project-single-thumb2 {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .aximo-project-single-thumb2 img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 

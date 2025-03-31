@@ -7462,6 +7462,10 @@ img.aximo-video-circle {
   .aximo-project-info h3 {
     font-size: 20px;
   }
+  .aximo-project-info h3 {
+    color: #f90000; /* change to whatever you want */
+  }
+  
 }
 @media (max-width: 991px) {
   .aximo-project-info {

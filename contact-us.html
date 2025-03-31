@@ -157,37 +157,37 @@
             <form action="https://formsubmit.co/ben@boxmediagroup.uk" method="POST" enctype="multipart/form-data">
               <div class="aximo-main-field">
                 <label>Your name</label>
-                <input type="text">
+                <input type="text" name="name">
               </div>
               <div class="aximo-main-field">
                 <label>Organisation Name</label>
-                <input type="text">
+                <input type="text" name="organisation">
               </div>
               <div class="aximo-main-field">
                 <label>Email Address</label>
-                <input type="email">
+                <input type="email" name="email">
               </div>
               <div class="aximo-main-field">
                 <label>Phone Number</label>
-                <input type="text">
+                <input type="text" name="phone">
               </div>
               <div class="aximo-main-field">
                 <label>Do you have a written brief?</label>
-                <select id="briefSelect" onchange="toggleBriefUpload()">
+                <select id="briefSelect" name="hasBrief" onchange="toggleBriefUpload()">
                   <option value="no">No</option>
                   <option value="yes">Yes</option>
                 </select>
               </div>
               <div class="aximo-main-field" id="briefUpload" style="display: none;">
                 <label>Upload your brief</label>
-                <input type="file">
+                <input type="file" name="briefUpload">
               </div>
               <div class="aximo-main-field">
                 <label>Write your message here...</label>
-                <textarea name="textarea"></textarea>
+                <textarea name="message"></textarea>
               </div>
               <button id="aximo-main-btn" type="submit">Send Message</button>
-            </form>
+            </form>            
             
           </div>
         </div>

@@ -1017,9 +1017,9 @@ a.log-in-btn:hover:after {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 40px; /* spacing between stats */
-  margin: 1px auto;
-  padding-bottom: 80px; /* space above the image */
+  gap: 40px;
+  margin: -10px auto 0 auto; /* pulls the stat block up */
+  padding-bottom: 90px; /* keeps spacing above the image */
   max-width: 1200px;
 }
 
@@ -1047,6 +1047,7 @@ a.log-in-btn:hover:after {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    margin-top: 0;
     padding-bottom: 20px;
   }
 
@@ -1058,6 +1059,7 @@ a.log-in-btn:hover:after {
     font-size: 16px;
   }
 }
+
 .platforms-used {
   display: flex;
   flex-wrap: wrap;

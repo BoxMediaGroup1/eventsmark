@@ -1275,3 +1275,22 @@ a.log-in-btn:hover:after {
   color: #e63946;
   font-weight: 600;
 }
+
+  .info-card {
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: #FFFFF6;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    transition: 0.3s ease-in-out;
+  }
+  .info-card:hover {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  }
+  .section-title-small {
+    font-size: 20px;
+    font-weight: 600;
+    color: #999;
+    margin-bottom: 10px;
+  }

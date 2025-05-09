@@ -3,11 +3,14 @@ site_url: https://www.boxmediagroup.uk
 backend:
   name: git-gateway
   branch: main
-  identity_url: https://www.boxmediagroup.uk/.netlify/identity
-  gateway_url: https://www.boxmediagroup.uk/.netlify/git
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
+
+media_library:
+  name: uploadcare
+  config:
+    publicKey: "demopublickey" # Replace this with your actual key if needed
 
 collections:
   - name: "blog"

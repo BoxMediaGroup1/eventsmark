@@ -10,7 +10,7 @@ public_folder: "/assets/uploads"
 media_library:
   name: uploadcare
   config:
-    publicKey: "demopublickey" # Replace this with your actual key if needed
+    publicKey: "demopublickey"
 
 collections:
   - name: "blog"
@@ -21,7 +21,15 @@ collections:
     extension: "html"
     format: "frontmatter"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Image", name: "image", widget: "image" }
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Date"
+        name: "date"
+        widget: "datetime"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+      - label: "Image"
+        name: "image"
+        widget: "image"

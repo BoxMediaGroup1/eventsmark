@@ -10172,3 +10172,11 @@ button#aximo-notified-btn {
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
 
+.dark-bg .social-text {
+  color: white !important;
+}
+
+#platforms-section p {
+  color: white !important;
+}
+

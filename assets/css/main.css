@@ -1281,7 +1281,7 @@ a.log-in-btn:hover:after {
     border-radius: 16px;
     text-align: center;
     background-color: #FFFFF6;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #000000;
     box-shadow: 0 2px 12px rgba(0,0,0,0.05);
     transition: 0.3s ease-in-out;
   }
